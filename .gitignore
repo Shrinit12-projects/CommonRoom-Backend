@@ -1,0 +1,15 @@
+# Local environment and secrets. Keep the documented template trackable.
+.env
+.env.*
+!.env.example
+
+# Go build and test artifacts
+/bin/
+/community
+/community.exe
+*.test
+*.out
+*.prof
+.gocache/
+.tmp/
+
